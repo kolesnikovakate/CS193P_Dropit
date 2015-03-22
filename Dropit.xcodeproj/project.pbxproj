@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C02D27311ABF3E7300571E0D /* DropitBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02D27301ABF3E7300571E0D /* DropitBehavior.swift */; };
+		C02D27331ABF544F00571E0D /* BezierPathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02D27321ABF544F00571E0D /* BezierPathsView.swift */; };
 		C0ACECFD1ABF30340055D181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACECFC1ABF30340055D181 /* AppDelegate.swift */; };
 		C0ACED021ABF30340055D181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0ACED001ABF30340055D181 /* Main.storyboard */; };
 		C0ACED041ABF30340055D181 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0ACED031ABF30340055D181 /* Images.xcassets */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		C02D27301ABF3E7300571E0D /* DropitBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitBehavior.swift; sourceTree = "<group>"; };
+		C02D27321ABF544F00571E0D /* BezierPathsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierPathsView.swift; sourceTree = "<group>"; };
 		C0ACECF71ABF30340055D181 /* Dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0ACECFB1ABF30340055D181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0ACECFC1ABF30340055D181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				C0ACED1C1ABF30C30055D181 /* DropitViewController.swift */,
 				C02D27301ABF3E7300571E0D /* DropitBehavior.swift */,
+				C02D27321ABF544F00571E0D /* BezierPathsView.swift */,
 				C0ACED001ABF30340055D181 /* Main.storyboard */,
 				C0ACECFA1ABF30340055D181 /* Supporting Files */,
 			);
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02D27331ABF544F00571E0D /* BezierPathsView.swift in Sources */,
 				C0ACED1D1ABF30C30055D181 /* DropitViewController.swift in Sources */,
 				C0ACECFD1ABF30340055D181 /* AppDelegate.swift in Sources */,
 				C02D27311ABF3E7300571E0D /* DropitBehavior.swift in Sources */,
