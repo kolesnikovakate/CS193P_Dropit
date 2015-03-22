@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Dropit View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="DropitViewController" customModule="Dropit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gWc-ge-koy">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="TVR-uk-4Lg" appends="YES" id="dRI-PY-DYc"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gWc-ge-koy" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="6IU-8R-Ot5"/>
+                            <constraint firstAttribute="trailing" secondItem="gWc-ge-koy" secondAttribute="trailing" id="JJR-wo-bJR"/>
+                            <constraint firstItem="gWc-ge-koy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZgL-9e-FlZ"/>
+                            <constraint firstItem="gWc-ge-koy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ehO-oK-zjM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gameView" destination="gWc-ge-koy" id="YwE-hu-MGm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="TVR-uk-4Lg">
+                    <connections>
+                        <action selector="drop:" destination="BYZ-38-t0r" id="4b0-EC-gqH"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>
